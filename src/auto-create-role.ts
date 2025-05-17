@@ -36,7 +36,7 @@ const createRoles = async (message: Message, client: Client) => {
 
         await owner.roles.add(roleAdmin);
 
-        console.log(`Created and assigned 'ADMIN' role to owner of guild ${guild.name}`);
+        console.log(`Created and assigned 'ADMIN' role to owner of this server`);
         message.reply("✅ Created and assigned 'ADMIN' role to owner of guild ${guild.name}");
 
         /* Create SingleUser role for bot */
